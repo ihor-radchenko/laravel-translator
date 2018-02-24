@@ -1,13 +1,12 @@
 {
     "name": "ihor-radchenko/laravel-translator",
-    "description": "",
+    "description": "Package for translating and transliteration from RU, UA => EN",
     "homepage": "https://github.com/ihor-radchenko/laravel-translator",
     "keywords": [
         "laravel 5",
         "translit",
         "translate"
     ],
-    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
