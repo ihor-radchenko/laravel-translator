@@ -26,11 +26,11 @@ public function index(Translator $translator)
 	$translator->translate('Привет мир, меня зовут Иван'); // Hello world, my name is Ivan
 	$translator
 		->langTo('fr')
-	    ->translate('Привет мир, меня зовут Иван'); // Bonjour tout le monde, je m'appelle Ivan
+	   	->translate('Привет мир, меня зовут Иван'); // Bonjour tout le monde, je m'appelle Ivan
 	$translator
 		->langFrom('en')
-        ->langTo('ru')
-        ->translate('Hello world'); // Привет мир
+        	->langTo('ru')
+        	->translate('Hello world'); // Привет мир
 }
 ```
 ```php
@@ -49,7 +49,7 @@ Translator::langTo('fr')
 	->translate('Привет мир, меня зовут Иван'); // Bonjour tout le monde, je m'appelle Ivan
 Translator::langFrom('en')
 	->langTo('ru')
-    ->translate('Hello world'); // Привет мир
+    	->translate('Hello world'); // Привет мир
 ```
 ```php
 Translit::ru2lat('Привет мир'); // privet-mir
