@@ -1,0 +1,42 @@
+{
+    "name": "ihor-radchenko/laravel-translator",
+    "description": "",
+    "homepage": "https://github.com/ihor-radchenko/laravel-translator",
+    "keywords": [
+        "laravel 5",
+        "translit",
+        "translate"
+    ],
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Radchenko",
+            "email": "radchenko1995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IhorRadchenko\\LaravelTranslator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IhorRadchenko\\LaravelTranslator\\TranslatorServiceProvider"
+            ],
+            "aliases": {
+                "Translator": "IhorRadchenko\\LaravelTranslator\\Facades\\Translator",
+                "Translit": "IhorRadchenko\\LaravelTranslator\\Facades\\Transliterator"
+            }
+        }
+    }
+}
